@@ -2,7 +2,6 @@ import React from 'react';
 import {AddNewTask} from './addTask'
 import {ToDoAppList} from './todoList.js'
 import './App.css'
-// import {tasks} from './index.js'
 
 
 export class App extends React.Component {
@@ -15,7 +14,7 @@ export class App extends React.Component {
 
 updateList(text){
 	let updatedTasks = this.state.tasks;
-  console.log(`updated tasks is ${updatedTasks}`)
+//console.log(`updated tasks is ${updatedTasks}`)
 	updatedTasks.push({description: text,done:false})
 	this.setState({tasks: updatedTasks})
 } 
@@ -25,7 +24,6 @@ removeTask(text){
 	updatedTasks.splice(updatedTasks.indexOf(text), 1)
 	this.setState({tasks: updatedTasks})
 } 
-
 
   render() {
      return (
