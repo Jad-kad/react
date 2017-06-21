@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+  
+
+.todo-header{
+  margin : 2px 0 0 4px;
+  border-radius: 30px;
+  border-radius: 4px;
+  font-size: 25px;
+  color: white;
+  font-weight: lighter;
+}
+
+.div-main{
+  border-left:1px solid black; 
+}
+.App-header {
+  background-color: #4E6568;
+  height: 40px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.form1 {
+    width: 100%;
+    padding: 4px 8px;
+    margin : 4px 0 0 4px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.ul-in {
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: lighter;  
+    padding: 0;
+}
+
+.li-in {
+  
+  font-size: 20px;
+  margin : 2px 0 0 4px;
+
+}
+
+.button1 {
+    font-weight: bold;
+    padding: 2px 4px 2px 4px ; 
+    font-size: 12px;
+    background-color: #555555;
+    color: black;
+    border: 1px solid black;
+    margin-right: 8px;
+}

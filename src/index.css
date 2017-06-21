@@ -1,0 +1,15 @@
+
+html, body {
+	height: 100vh;
+	background-color: #4E6568;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
