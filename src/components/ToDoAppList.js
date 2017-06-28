@@ -1,6 +1,5 @@
 import React from 'react';
-import './App.css'
-
+import './ToDoAppList.css'
 
 export class ToDoAppList extends React.Component {
   constructor() {
@@ -16,7 +15,7 @@ export class ToDoAppList extends React.Component {
   render() {
 
     let items = this.props.tasks.map((element, index)=> {
-      return <li description={element.description} done={element.done} key={index} className='li-in'><button className='button1' onClick={this.remove}>X</button> <span>{element.description}</span></li>
+      return <li description={element.description} done={element.done} key={index} className='li-in'><button className='button1' onClick={this.remove}>Del</button> <span>{element.description}</span></li>
     })
     return (
         <ul className='ul-in'>

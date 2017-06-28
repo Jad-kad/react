@@ -26,14 +26,6 @@
   font-size: large;
 }
 
-.form1 {
-    width: 100%;
-    padding: 4px 8px;
-    margin : 4px 0 0 4px;
-    box-sizing: border-box;
-    border-radius: 4px;
-}
-
 .ul-in {
     list-style-type: none;
     font-size: 25px;
@@ -41,19 +33,6 @@
     padding: 0;
 }
 
-.li-in {
-  
-  font-size: 20px;
-  margin : 2px 0 0 4px;
 
-}
 
-.button1 {
-    font-weight: bold;
-    padding: 2px 4px 2px 4px ; 
-    font-size: 12px;
-    background-color: #555555;
-    color: black;
-    border: 1px solid black;
-    margin-right: 8px;
-}
+

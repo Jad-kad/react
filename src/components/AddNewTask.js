@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css'
+import './AddNewTask.css'
 
 
 export class AddNewTask extends React.Component {
@@ -9,9 +9,9 @@ export class AddNewTask extends React.Component {
   }
      
       justSubmitted(event){
-        event.preventDefault();
+        event.preventDefault()
         let input = event.target.querySelector('input')
-        let value = input.value;
+        let value = input.value
         input.value =''
         this.props.updateList(value)
       }
